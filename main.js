@@ -45,6 +45,7 @@ function CreateStream() {
 }
 
 function doTheFunnyStuff(responseObject) {
+    //Check if server answer is independent tweet
     if (isTweet(responseObject)) {
         let statusString = '@' + responseObject.user.screen_name + ' Luna, ruhe jeds!';
         console.log('Independent tweet found, reply with sentence now...')
