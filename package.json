@@ -1,0 +1,29 @@
+{
+  "name": "lunabot-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "node-fetch": "^2.6.0",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.15",
+    "twitter": "^1.7.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeYoPsycho/LunaBotJS.git"
+  },
+  "author": "LeYoPsycho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeYoPsycho/LunaBotJS/issues"
+  },
+  "homepage": "https://github.com/LeYoPsycho/LunaBotJS#readme"
+}
