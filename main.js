@@ -53,6 +53,13 @@ function doTheFunnyStuff(responseObject) {
                 console.log("Error:", error);
             } else {
                 console.log('Sentence "' + data.text + '" successfully posted');
+                Twitter.post('favorites/create', {id: responseObject.id_str})
+                .then((tweet) => {
+                    console.log("Tweet successfully liked");
+                })
+                .catch((error) => {
+                    console.log("Tweet could not be liked");
+                });
             }
         });
     } else {
